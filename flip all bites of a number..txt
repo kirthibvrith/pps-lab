@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+	int num, flippedNumber;
+	
+	/* Input number rom user */
+	printf("Enter any number: ");
+	scanf("%d", &num);
+	
+	flippedNumber = ~num;
+	
+	printf("Original nuber = %d (in decimal)\n", num);
+	printf("Number after bites are flipped = %d (in decimals)", flippedNumber);
+	
+	return 0;
+}
